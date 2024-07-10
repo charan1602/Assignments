@@ -1,5 +1,5 @@
 body{
-    background-color:antiquewhite;
+    background-color:rgb(224, 133, 15);
     }
 .navbar{
     background-color: rgb(83, 118, 107);
@@ -21,11 +21,11 @@ body{
     grid-template-columns: auto auto;
     gap: 2em;
     background-color: rgb(221, 221, 214);
-   
+    transition: ;
 }
 .about:hover{
-   /* background-color:  rgb(218, 218, 191);
-   box-shadow: 0 0 15px rgba(0, 0, 0, 0.5) */
+   background-color:rgb(186, 186, 167);
+    transform: scale(1.02);
 }
 .abt{
     display: flex;
@@ -99,13 +99,14 @@ grid-column-end:span 2 ;
 }
 .container1{
     background-color: rgb(246, 220, 188);
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: ;
    
 }
 .container1:hover{
-    /* background-color: rgb(187, 163, 134) ;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); */
+    background-color: rgb(206, 182, 152);
+    transform: scale(1.02);
 }
 .skills img{
     height: 100px;
@@ -134,8 +135,13 @@ grid-column-end:span 2 ;
 }
 .container2{
     background-color:  rgb(221, 221, 214);
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+   
 }
+.container2:hover{
+    background-color:rgb(186, 186, 167) ;
+    transform: scale(1.02);
+    }
 .heading2{
     display: flex;
     align-items: center;
@@ -152,6 +158,7 @@ grid-column-end:span 2 ;
 }
 footer{
     background-color: rgb(83, 118, 107);
+    margin-bottom: 5px;
 }
 footer h1{
     display: flex;
@@ -171,4 +178,7 @@ footer h1{
 footer > div >div a{
     font-size: 50px;
     color: black;
+    
 }
+
+  
